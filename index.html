@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload File to Google Drive</title>
+</head>
+<body>
+    <h1>Upload File:</h1>
+    <form action="javascript:void(0);" onsubmit="uploadFile()" enctype="multipart/form-data">
+        <input type="file" id="fileInput" name="file" required>
+        <input type="submit" value="Upload">
+    </form>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
